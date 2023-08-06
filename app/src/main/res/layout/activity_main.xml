@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/light_blue">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:background="@color/light_blue">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_45sdp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/alike_angular"
+        android:text="@string/unit_converter"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_30sdp"/>
+
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/text"
+    android:id="@+id/m2c"
+    android:text="@string/meter_to_centimeter"
+    android:layout_marginTop="@dimen/_60sdp"
+    android:layout_marginHorizontal="30dp"
+    app:backgroundTint="@null"
+    android:textColor="@color/white"
+    android:background="@drawable/button_background"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/m2c"
+        android:id="@+id/k2g"
+        android:text="@string/kilo_to_gram"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="30dp"
+        app:backgroundTint="@null"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/k2g"
+        android:id="@+id/k2m"
+        android:text="@string/kilometer_to_meter"
+        android:layout_marginTop="50dp"
+        android:layout_marginHorizontal="30dp"
+        app:backgroundTint="@null"
+        android:textColor="@color/white"
+        android:background="@drawable/button_background"/>
+
+    </RelativeLayout>
+</ScrollView>

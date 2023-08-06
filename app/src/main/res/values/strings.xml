@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Converter</string>
+    <string name="unit_converter">Unit Converter</string>
+    <string name="meter_to_centimeter">Meter To Centimeter</string>
+    <string name="kilo_to_gram">Kilo to Gram</string>
+    <string name="kilometer_to_meter">Kilometer to meter</string>
+    <string name="meter_to_centimeter1">Meter to Centimeter</string>
+    <string name="number_in_meters">Number in meters</string>
+    <string name="kilogram_to_gram1">Kilogram to Gram</string>
+    <string name="number_in_kilogram">Number in Kilogram</string>
+    <string name="kilogram_to_gram2">Kilogram to Gram</string>
+    <string name="kilogram_to_meters">Kilogram to Meters</string>
+    <string name="kilometer_to_meters">Kilometer to Meters</string>
+    <string name="number_in_kilometer">Number in KIlometer</string>
+    <string name="meter_to_centimeter2">Meter to Centimeter</string>
+</resources>
